@@ -1,6 +1,6 @@
 # Snelstart Gids - Tactiele Kaarten QGIS
 
-⚡ **Snel aan de slag in 5 stappen**
+**Snel aan de slag in 5 stappen**
 
 ## Voordat je Begint
 
@@ -82,7 +82,7 @@ Kopieer naar je QGIS profiel map:
     └── user_guide.md     # Volledige handleiding
 ```
 
-## 🆘 Problemen?
+## Problemen?
 
 ### Script Verschijnt Niet
 - Herstart QGIS of klik Refresh in Processing Toolbox
@@ -101,7 +101,7 @@ Kopieer naar je QGIS profiel map:
 - Navigeer handmatig naar `styles/` folder bij eerste gebruik
 - OF: importeer stijlen via Settings → Style Manager
 
-## 📚 Meer Info
+## Meer Info
 
 - **Volledige handleiding**: `docs/user_guide.md`
 - **Installatie details**: `docs/installation.md`
@@ -129,12 +129,12 @@ Kopieer naar je QGIS profiel map:
 - **Infill**: 20-30%
 - **Supports**: Minimaal
 
-## 🎯 Volgende Stappen
+## Volgende Stappen
 
-1. ✅ Maak je eerste test-kaart (klein gebied!)
-2. 📖 Lees de volledige handleiding
-3. 🧪 Experimenteer met verschillende stijlen
-4. 🖨️ Print een test op kleine schaal
-5. 🔧 Verfijn en optimaliseer
+1.  Maak je eerste test-kaart (klein gebied!)
+2.  Lees de volledige handleiding
+3.  Experimenteer met verschillende stijlen
+4.  Print een test op kleine schaal
+5.  Verfijn en optimaliseer
 
-**Succes met je tactiele kaarten!** 🗺️✨
+**Succes met je tactiele kaarten!** 
