@@ -1,0 +1,41 @@
+# QGIS Project Files
+*.qgs
+*.qgz
+*.qgs~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Output files (optioneel - verwijder deze regels als je voorbeeldoutputs wilt committen)
+output/
+*.stl
+*.tif
+*.tiff
+
+# User-specific files
+examples/user_data/
+test_data/
