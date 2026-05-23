@@ -1,6 +1,6 @@
 # Automatisch Stappenplan voor 3D-Printbare Tactiele Kaarten
 
-** [English version](#english-version)**
+[English version](#english-version)
 
 Een geautomatiseerde workflow in QGIS voor het genereren van 3D-printbare tactiele kaarten, ontwikkeld als onderdeel van een thesis over toegankelijke cartografie.
 
@@ -19,9 +19,9 @@ Dit project biedt een compleet QGIS-model voor het automatisch genereren van tac
 ## Vereisten
 
 ### Software
-- **QGIS 3.28 of hoger** (getest op QGIS 3.40)
-  - QGIS 3.28-3.38: gebruik `Model.model3`
-  - QGIS 3.40+: gebruik `Model.model`
+- **QGIS 3.28 of hoger** (getest op QGIS 3.40.5 en 3.44.10)
+  - QGIS 3.28-3.40: gebruik `Model.model3`
+  - QGIS 3.44+: gebruik `Model.model`
 - **STL Generator Plugin** (voor finale 3D-export)
 
 ### Data Vereisten
@@ -45,8 +45,8 @@ Of download als ZIP via de groene "Code" knop → "Download ZIP"
 2. Ga naar **Processing** → **Model Designer**
 3. Klik op **Open Model** (map-icoon)
 4. Selecteer:
-   - `models/Model.model` (QGIS 3.40+)
-   - `models/Model.model3` (QGIS 3.28-3.38)
+   - `models/Model.model` (QGIS 3.44+)
+   - `models/Model.model3` (QGIS 3.28-3.40)
 
 ### Stap 3: Python Script Installeren
 
@@ -87,7 +87,7 @@ De stijlbestanden in de `styles/` map moeten toegepast worden tijdens het gebrui
 2. Zoek naar **"STL Generator"**
 3. Klik op **Install Plugin**
 
-## 🚀 Gebruik
+## Gebruik
 
 ### Basis Workflow
 
@@ -126,7 +126,7 @@ De stijlbestanden in de `styles/` map moeten toegepast worden tijdens het gebrui
 | `Grenslaag_legende.qml` | Grenslijnen in legenda | Administratieve grenzen |
 | `stijl_*_legende.qml` | Legenda-specifieke stijlen | Verschillende legenda items |
 
-## 📚 Documentatie
+## Documentatie
 
 Gedetailleerde documentatie is beschikbaar in de `docs/` map:
 
@@ -134,7 +134,7 @@ Gedetailleerde documentatie is beschikbaar in de `docs/` map:
 - **[Gebruikershandleiding](docs/user_guide.md)** - Hoe het model te gebruiken
 - **[Voorbeelden](docs/examples.md)** - Praktische use cases en resultaten
 
-## 🔬 Technische Details
+## Technische Details
 
 ### Braille Implementatie
 
@@ -160,7 +160,7 @@ Het QGIS-model voert de volgende stappen uit:
 5. **Rasterisatie** - Converteert naar hoogtemodel
 6. **Export voorbereiding** - Clipt en schaalt voor 3D-print
 
-## ⚠️ Belangrijke Opmerkingen
+## Belangrijke Opmerkingen
 
 ### CRS Configuratie
 **KRITIEK**: Gebruik altijd een metrisch coördinatensysteem!
@@ -179,7 +179,7 @@ De stijlbestanden bevatten relatieve paden. Bij het eerste gebruik moet je mogel
 1. De stijlen handmatig selecteren uit de `styles/` map
 2. OF de stijlen importeren in je QGIS Style Manager (aanbevolen)
 
-## 🤝 Bijdragen
+## Bijdragen
 
 Dit project is ontwikkeld voor onderzoeksdoeleinden. Suggesties en verbeteringen zijn welkom!
 
@@ -189,23 +189,23 @@ Dit project is ontwikkeld voor onderzoeksdoeleinden. Suggesties en verbeteringen
 4. Push naar de branch (`git push origin feature/geweldige-feature`)
 5. Open een Pull Request
 
-## 📄 Licentie
+## Licentie
 
 Dit project is gelicenseerd onder de MIT License - zie het [LICENSE](LICENSE) bestand voor details.
 
-## 🎓 Citatie
+## Citatie
 
 Als je dit project gebruikt in je onderzoek, citeer dan:
 
 ```
-Maurien Stroobant (2024). Automatisch Stappenplan voor 3D-Printbare Tactiele Kaarten. 
+Maurien Stroobant (2026). Automatisch Stappenplan voor 3D-Printbare Tactiele Kaarten. 
 Thesis [Universiteit]. GitHub repository: https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS
 ```
 
-## 📧 Contact
+## Contact
 
 Voor vragen of ondersteuning:
-- 🐛 **Issues**: [GitHub Issues](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
+-  **Issues**: [GitHub Issues](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
 
 ---
 
@@ -215,7 +215,7 @@ Voor vragen of ondersteuning:
 
 An automated QGIS workflow for generating 3D-printable tactile maps, developed as part of a thesis on accessible cartography.
 
-## 📋 Overview
+## Overview
 
 This project provides a complete QGIS model for automatically generating tactile maps suitable for 3D printing. It combines geographic data with braille annotations and specialized styles to produce maps that are tangible for visually impaired users.
 
@@ -227,19 +227,19 @@ This project provides a complete QGIS model for automatically generating tactile
 - ✅ **Metric coordinate system** - optimal for 3D printing accuracy
 - ✅ **No external plugins required** (except STL Generator for final export)
 
-## 🔧 Requirements
+## Requirements
 
 ### Software
-- **QGIS 3.28 or higher** (tested on QGIS 3.40)
-  - QGIS 3.28-3.38: use `Model.model3`
-  - QGIS 3.40+: use `Model.model`
+- **QGIS 3.28 or higher** (tested on QGIS 3.40.5 and 3.44.10)
+  - QGIS 3.28-3.40: use `Model.model3`
+  - QGIS 3.44+: use `Model.model`
 - **STL Generator Plugin** (for final 3D export)
 
 ### Data Requirements
 - Geodata in a **metric coordinate system** (e.g., EPSG:31370 for Belgium, EPSG:28992 for Netherlands)
 - Project CRS must be **identical** to base layer CRS to prevent distortions
 
-## 📦 Installation
+## Installation
 
 ### Step 1: Download Repository
 
@@ -256,8 +256,8 @@ Or download as ZIP via the green "Code" button → "Download ZIP"
 2. Go to **Processing** → **Model Designer**
 3. Click **Open Model** (folder icon)
 4. Select:
-   - `models/Model.model` (QGIS 3.40+)
-   - `models/Model.model3` (QGIS 3.28-3.38)
+   - `models/Model.model` (QGIS 3.44+)
+   - `models/Model.model3` (QGIS 3.28-3.40)
 
 ### Step 3: Install Python Script
 
@@ -298,7 +298,7 @@ The style files in the `styles/` folder must be applied when using the model. Tw
 2. Search for **"STL Generator"**
 3. Click **Install Plugin**
 
-## 🚀 Usage
+## Usage
 
 ### Basic Workflow
 
@@ -321,7 +321,7 @@ The style files in the `styles/` folder must be applied when using the model. Tw
 | Project CRS | Must be metric | EPSG:31370, EPSG:28992 |
 | Text size | Font size (pt) | 72 pt (default) |
 
-## 📚 Documentation
+## Documentation
 
 Detailed documentation is available in the `docs/` folder:
 
@@ -329,7 +329,7 @@ Detailed documentation is available in the `docs/` folder:
 - **[User Guide](docs/user_guide.md)** - How to use the model
 - **[Examples](docs/examples.md)** - Practical use cases and results
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### CRS Configuration
 **CRITICAL**: Always use a metric coordinate system!
@@ -342,11 +342,11 @@ Detailed documentation is available in the `docs/` folder:
 
 **Project CRS must be identical to base layer CRS** to prevent distortions!
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+## Contact
 
 For questions or support:
-- 🐛 **Issues**: [GitHub Issues](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
+- **Issues**: [GitHub Issues](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
