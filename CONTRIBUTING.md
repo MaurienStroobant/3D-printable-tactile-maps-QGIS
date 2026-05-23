@@ -37,7 +37,7 @@ Wil je code bijdragen?
 - Test je wijzigingen
 - Open een Pull Request
 
-## 📝 Code Richtlijnen
+## Code Richtlijnen
 
 ### Python Code (scripts)
 - Volg PEP 8 stijlgids
@@ -57,7 +57,7 @@ Wil je code bijdragen?
 - Test op verschillende schalen
 - Overweeg printability (3D)
 
-## 🔄 Pull Request Process
+## Pull Request Process
 
 1. **Fork & Clone**
    ```bash
@@ -94,7 +94,7 @@ Wil je code bijdragen?
    - Open Pull Request
    - Beschrijf wat je hebt veranderd en waarom
 
-## ✅ Commit Message Format
+## Commit Message Format
 
 Gebruik duidelijke, beschrijvende commit messages:
 
@@ -125,7 +125,7 @@ docs: Verbeter installatiehandleiding voor macOS
 fix: Los CRS mismatch probleem op in model (#42)
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Handmatige Tests
 Voor je een PR opent:
@@ -143,7 +143,7 @@ Voor je een PR opent:
 - [ ] Documentatie is bijgewerkt
 - [ ] Geen nieuwe warnings in Log Messages
 
-## 📚 Documentatie Bijdragen
+## Documentatie Bijdragen
 
 ### Structuur
 ```
@@ -167,7 +167,7 @@ styles/
 - Gebruik code blocks met syntax highlighting
 - Voeg screenshots toe waar nuttig
 
-## 🐛 Bug Fix Proces
+## Bug Fix Proces
 
 1. **Reproduceer de bug**
    - Volg exact de stappen uit het issue
@@ -188,7 +188,7 @@ styles/
    - Voeg comment toe aan issue
    - Beschrijf de fix in je PR
 
-## 💡 Feature Development
+## Feature Development
 
 ### Voor je begint
 1. Open een issue om de feature te bespreken
@@ -207,7 +207,7 @@ styles/
 - Voeg voorbeelden toe
 - Check dat het past bij project visie
 
-## 📦 Nieuwe Stijlen Toevoegen
+## Nieuwe Stijlen Toevoegen
 
 Als je een nieuwe QML stijl wilt toevoegen:
 
@@ -226,12 +226,12 @@ Als je een nieuwe QML stijl wilt toevoegen:
    - Test op verschillende schalen
    - Print een test (indien mogelijk)
 
-## ❓ Vragen?
+## Vragen?
 
-- 💬 Open een [Discussion](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/discussions)
-- 🐛 Probleem? Open een [Issue](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
+-  Open een [Discussion](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/discussions)
+-  Probleem? Open een [Issue](https://github.com/MaurienStroobant/3D-printable-tactile-maps-QGIS/issues)
 
-## 🙏 Erkenning
+##  Erkenning
 
 Alle bijdragen worden gewaardeerd en erkend:
 - Contributors lijst in README
