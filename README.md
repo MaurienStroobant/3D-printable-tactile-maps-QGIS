@@ -1,10 +1,10 @@
 # Automatisch Stappenplan voor 3D-Printbare Tactiele Kaarten
 
-**🌍 [English version](#english-version)**
+** [English version](#english-version)**
 
 Een geautomatiseerde workflow in QGIS voor het genereren van 3D-printbare tactiele kaarten, ontwikkeld als onderdeel van een thesis over toegankelijke cartografie.
 
-## 📋 Overzicht
+## Overzicht
 
 Dit project biedt een compleet QGIS-model voor het automatisch genereren van tactiele kaarten die geschikt zijn voor 3D-printing. Het combineert geografische data met braille-annotaties en speciale stijlen om kaarten te produceren die tastbaar zijn voor visueel gehandicapten.
 
@@ -16,7 +16,7 @@ Dit project biedt een compleet QGIS-model voor het automatisch genereren van tac
 - ✅ **Metrisch coördinatensysteem** - optimaal voor 3D-printnauwkeurigheid
 - ✅ **Geen externe plugins vereist** (behalve STL Generator voor final export)
 
-## 🔧 Vereisten
+## Vereisten
 
 ### Software
 - **QGIS 3.28 of hoger** (getest op QGIS 3.40)
