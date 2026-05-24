@@ -27,7 +27,7 @@ Dit project biedt een compleet QGIS-model voor het automatisch genereren van tac
 - Geodata in een **metrisch coördinatensysteem** (bijv. EPSG:31370 voor België, EPSG:28992 voor Nederland)
 - Project CRS moet **identiek** zijn aan de CRS van de basislaag om vervormingen te voorkomen
 
-## 📦 Installatie
+## Installatie
 
 ### Stap 1: Repository Downloaden
 
