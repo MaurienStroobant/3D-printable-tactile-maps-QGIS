@@ -6,7 +6,7 @@ Een geautomatiseerde workflow in QGIS voor het genereren van 3D-printbare tactie
 
 ## Overzicht
 
-Dit project biedt een compleet QGIS-model voor het automatisch genereren van tactiele kaarten die geschikt zijn voor 3D-printing. Het combineert geografische data met braille-annotaties en speciale stijlen om kaarten te produceren die tastbaar zijn voor visueel gehandicapten.
+Dit project biedt een compleet QGIS-model voor het automatisch genereren van tactiele kaarten die geschikt zijn voor 3D-printing. Het combineert geografische data met braille-annotaties en stijlen om kaarten te produceren die tastbaar zijn voor mensen met een visuele beperking.
 
 ### Belangrijkste Features
 
@@ -216,7 +216,7 @@ An automated QGIS workflow for generating 3D-printable tactile maps, developed a
 
 ## Overview
 
-This project provides a complete QGIS model for automatically generating tactile maps suitable for 3D printing. It combines geographic data with braille annotations and specialized styles to produce maps that are tangible for visually impaired users.
+This project provides a complete QGIS model for automatically generating tactile maps suitable for 3D printing. It distributes regional data with Braille annotations and styles to produce maps that are tactile for people with visual impairments.
 
 ### Key Features
 
