@@ -14,7 +14,6 @@ Dit project biedt een compleet QGIS-model voor het automatisch genereren van tac
 - ✅ **Braille en tekst combinatie** - custom Python-script voor het samenvoegen van braille en reguliere tekst
 - ✅ **Voorgedefinieerde stijlen** - 13 QGIS-stijlbestanden (QML) voor consistente visualisatie
 - ✅ **Metrisch coördinatensysteem** - optimaal voor 3D-printnauwkeurigheid
-- ✅ **Geen externe plugins vereist** (behalve STL Generator voor final export)
 
 ## Vereisten
 
@@ -225,7 +224,6 @@ This project provides a complete QGIS model for automatically generating tactile
 - ✅ **Braille and text combination** - custom Python script for merging braille and regular text
 - ✅ **Predefined styles** - 13 QGIS style files (QML) for consistent visualization
 - ✅ **Metric coordinate system** - optimal for 3D printing accuracy
-- ✅ **No external plugins required** (except STL Generator for final export)
 
 ## Requirements
 
