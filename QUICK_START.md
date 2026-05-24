@@ -89,8 +89,8 @@ Kopieer naar je QGIS profiel map:
 - Check dat bestand in juiste map staat (zie locaties hierboven)
 
 ### Model Laadt Niet
-- Gebruik `Model.model3` voor QGIS 3.28-3.38
-- Gebruik `Model.model` voor QGIS 3.40+
+- Gebruik `Model.model3` voor QGIS 3.28-3.40+
+- Gebruik `Model.model` voor QGIS 3.44+
 
 ### CRS Errors
 - **BELANGRIJK**: Gebruik altijd metrisch CRS!
