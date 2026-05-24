@@ -2,7 +2,7 @@
 
 Alle belangrijke wijzigingen aan dit project worden gedocumenteerd in dit bestand.
 
-## [1.0.0] - 2024-XX-XX
+## [1.0.0] - 2026-05-23
 
 ### Toegevoegd
 - Initiële release van het tactiele kaarten QGIS model
