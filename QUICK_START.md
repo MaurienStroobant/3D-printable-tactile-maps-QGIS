@@ -12,8 +12,9 @@
 
 ### Windows
 1. Pak `3D-printable-tactile-maps-QGIS.zip` uit
-2. Dubbelklik `install_windows.bat`
-3. Herstart QGIS
+2. **Open de `installation\` map**
+3. Dubbelklik `install_windows.bat`
+4. Herstart QGIS
 
 ### Mac/Linux
 1. Pak `3D-printable-tactile-maps-QGIS.zip` uit
@@ -25,6 +26,11 @@
 Kopieer naar je QGIS profiel map:
 - `scripts/text_and_braille_algorithm.py` → `[profiel]/processing/scripts/`
 - `models/Model.model*` → `[profiel]/processing/models/`
+- `styles/*.qml` → `[profiel]/styles/tactile-maps/`
+
+Voer daarna uit:
+- Windows: `fix_model_paths.bat`
+- Mac/Linux: `python3 fix_model_paths.py`
 
 **QGIS profiel locaties:**
 - Windows: `%APPDATA%\QGIS\QGIS3\profiles\default`
