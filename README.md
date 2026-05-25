@@ -40,7 +40,8 @@ Of download als ZIP via de groene "Code" knop → "Download ZIP"
 
 ### Stap 2: Het model en bijhorend script en plug-in installeren (Automatisch/ handmatig)
 
-Automatisch
+### Automatisch
+
 ### Windows
 1. Pak `3D-printable-tactile-maps-QGIS.zip` uit
 2. **Open de `installation\` map**
@@ -53,8 +54,9 @@ Automatisch
 3. Run: `./install_unix.sh`
 4. Herstart QGIS
 
-Handmatig
-### Stap 2: QGIS Model Importeren
+### Handmatig
+
+### 1: QGIS Model Importeren
 
 1. Open QGIS
 2. Ga naar **Processing** → **Model Designer**
@@ -63,7 +65,7 @@ Handmatig
    - `models/Model.model` (QGIS 3.44+)
    - `models/Model.model3` (QGIS 3.28-3.40)
 
-### Stap 3: Python Script Installeren
+### 2: Python Script Installeren
 
 Het braille-script moet in de QGIS Processing scripts map geplaatst worden:
 
@@ -82,7 +84,7 @@ C:\Users\<jouw-naam>\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\scri
 2. Herstart QGIS of klik op **Refresh** in de Processing Toolbox
 3. Het script verschijnt onder **Scripts** → **Tekst gereedschappen** → **Tekst en Braille combineren**
 
-### Stap 4: Stijlbestanden Klaarzetten
+### 3: Stijlbestanden Klaarzetten
 
 De stijlbestanden in de `styles/` map moeten toegepast worden tijdens het gebruik van het model. Er zijn twee opties:
 
@@ -96,7 +98,7 @@ De stijlbestanden in de `styles/` map moeten toegepast worden tijdens het gebrui
 2. Importeer alle stijlen uit de `styles/` map
 3. De stijlen zijn nu beschikbaar in alle projecten
 
-### Stap 5: STL Generator Plugin
+### 4: STL Generator Plugin
 
 1. Ga naar **Plugins** → **Manage and Install Plugins**
 2. Zoek naar **"STL Generator"**
