@@ -38,6 +38,22 @@ cd 3D-printable-tactile-maps-QGIS
 
 Of download als ZIP via de groene "Code" knop → "Download ZIP"
 
+### Stap 2: Het model en bijhorend script en plug-in installeren (Automatisch/ handmatig)
+
+Automatisch
+### Windows
+1. Pak `3D-printable-tactile-maps-QGIS.zip` uit
+2. **Open de `installation\` map**
+3. Dubbelklik `install_windows.bat`
+4. Herstart QGIS
+
+### Mac/Linux
+1. Pak `3D-printable-tactile-maps-QGIS.zip` uit
+2. Open Terminal in de uitgepakte map
+3. Run: `./install_unix.sh`
+4. Herstart QGIS
+
+Handmatig
 ### Stap 2: QGIS Model Importeren
 
 1. Open QGIS
